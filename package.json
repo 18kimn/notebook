@@ -1,0 +1,21 @@
+{
+    "name": "notebook",
+    "displayName": "Notebook Theme",
+    "description": "a VSCode port of Yorick Peterse's \"Paper\" terminal theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "notebook",
+                "uiTheme": "vs",
+                "path": "./themes/notebook-color-theme.json"
+            }
+        ]
+    }
+}
